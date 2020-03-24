@@ -1,3 +1,4 @@
 [
-  "iha/test_.py::test_empty_sting"
+  "iha/test_.py::test_empty_sting",
+  "iha/test_.py::test_one_integer"
 ]
