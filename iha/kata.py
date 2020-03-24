@@ -2,8 +2,10 @@ def Add(Numbers):
     if Numbers == "":
         return 0
     elif "," in Numbers:
-        num1, num2 = Numbers.split(",")
-        the_sum = int(num1) + int(num2)
+        the_sum = 0
+        nums = Numbers.split(",")
+        for num in nums:
+            the_sum += int(num)
         return the_sum
     elif Numbers.isdigit:
         return int(Numbers)
