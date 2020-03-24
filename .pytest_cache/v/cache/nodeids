@@ -4,5 +4,6 @@
   "iha/test_.py::test_two_integers",
   "iha/test_.py::test_may_integers_with_comma",
   "iha/test_.py::test_many_integers_with_comma",
-  "iha/test_.py::test_many_integers_with_newline"
+  "iha/test_.py::test_many_integers_with_newline",
+  "iha/test_.py::test_numbers_bigger_than_thousand"
 ]

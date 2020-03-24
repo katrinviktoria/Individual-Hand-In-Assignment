@@ -23,3 +23,8 @@ def test_many_integers_with_newline():
     assert Add("1\n2,3") == 6
     assert Add("50,10\n3") == 63
     assert Add("8\n2\n22,3") == 35
+
+def test_numbers_bigger_than_thousand():
+    assert Add("1001,2") == 2
+    assert Add("3\n3000") == 3
+    assert Add("1000,500\n1042") == 1500
