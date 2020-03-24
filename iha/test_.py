@@ -14,7 +14,12 @@ def test_two_integers():
     assert Add("10,5") == 15
     assert Add("99,9") == 108
 
-def test_may_integers_with_comma():
+def test_many_integers_with_comma():
     assert Add("1,2,3") == 6
     assert Add("5,10,100,23,7") == 145
     assert Add("7,5,49,5") == 66
+
+def test_many_integers_with_newline():
+    assert Add("1\n2,3") == 6
+    assert Add("50,10\n3") == 63
+    assert Add("8\n2\n22,3") == 35

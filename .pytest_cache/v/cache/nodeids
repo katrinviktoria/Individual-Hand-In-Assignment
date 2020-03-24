@@ -2,5 +2,7 @@
   "iha/test_.py::test_empty_sting",
   "iha/test_.py::test_one_integer",
   "iha/test_.py::test_two_integers",
-  "iha/test_.py::test_may_integers_with_comma"
+  "iha/test_.py::test_may_integers_with_comma",
+  "iha/test_.py::test_many_integers_with_comma",
+  "iha/test_.py::test_many_integers_with_newline"
 ]
